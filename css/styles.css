@@ -43,6 +43,8 @@ button {
 
 img {
 	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
 body {
@@ -188,9 +190,6 @@ body {
 
 .hero {
 	background-color: var(--tertiary-bg-color);
-}
-
-.hero-content {
 	padding-top: 200px;
 	padding-bottom: 200px;
 }
@@ -218,9 +217,11 @@ body {
 
 /* ------------VALUES------------ */
 
+.value {
+	padding: 94px 0;
+}
+
 .value-list {
-	padding-top: 94px;
-	padding-bottom: 94px;
 	display: flex;
 	justify-content: space-between;
 	gap: 30px;
@@ -290,7 +291,8 @@ body {
 	letter-spacing: 0.03em;
 	text-align: center;
 	color: var(--secondary-title-color);
-	margin: 30px auto 10px;
+	padding-top: 30px;
+	margin: 0 auto 10px;
 }
 
 .team-item-text {
@@ -298,7 +300,7 @@ body {
 	line-height: 1.19;
 	letter-spacing: 0.03em;
 	text-align: center;
-	margin-bottom: 30px;
+	padding-bottom: 30px;
 }
 
 /* ----------------------------------Styles for footer---------------------------------- */
@@ -319,15 +321,11 @@ body {
 	font-style: normal;
 }
 
-.contacts {
+.contacts-address {
+	display: block;
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
-	color: #ffffff;
-}
-
-.contacts-address {
-	display: block;
 	color: #ffffff;
 }
 
@@ -338,6 +336,8 @@ body {
 
 .footer-contacts-link {
 	display: block;
+	font-size: 14px;
+	line-height: 1.71;
 	color: rgba(255, 255, 255, 0.6);
 }
 
