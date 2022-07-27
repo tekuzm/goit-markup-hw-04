@@ -140,6 +140,11 @@ body {
 	align-items: center;
 }
 
+.header-nav {
+	display: flex;
+	align-items: center;
+}
+
 .page-logo {
 	margin-right: 93px;
 }
@@ -181,7 +186,7 @@ body {
 	color: var(--primary-text-color);
 }
 
-.header-contacts {
+.contacts-nav-list {
 	margin-left: auto;
 }
 
